@@ -1,0 +1,5 @@
+apt install lxc
+sudo lxc-create -t download -n stec1 -- -d ubuntu -r focal -a amd64
+sudo lxc-start stec1
+sudo lxc-create -t download -n stec2 -- -d ubuntu -r focal -a amd64
+sudo lxc-start stec2
